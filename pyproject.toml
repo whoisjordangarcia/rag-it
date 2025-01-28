@@ -4,8 +4,17 @@ version = "0.1.0"
 description = ""
 authors = [{ name = "Jordan Garcia", email = "arickho@gmail.com" }]
 readme = "README.md"
-requires-python = ">=3.9,<4.0"
-dependencies = ["langchain (>=0.3.15,<0.4.0)"]
+requires-python = ">=3.10,<4.0"
+dependencies = [
+  "langchain (>=0.3.15,<0.4.0)",
+  "langchain-core (>=0.3.31,<0.4.0)",
+  "langchain-community (>=0.3.15,<0.4.0)",
+  "gradio (>=5.13.1,<6.0.0)",
+  "langchain-openai (>=0.3.2,<0.4.0)",
+  "pypdf (>=5.2.0,<6.0.0)",
+  "fastembed (>=0.5.1,<0.6.0)",
+  "chromadb (>=0.6.3,<0.7.0)",
+]
 
 
 [build-system]
